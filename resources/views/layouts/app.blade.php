@@ -75,7 +75,7 @@
                 <li>
                     <a class="page-scroll" href="#contact">@lang('menu.contact')</a>
                 </li>
-                @if (Auth::guest())
+              <!--  @if (Auth::guest())
                     <li><a href="{{ route('login') }}">@lang('menu.login')</a></li>
                     <li><a href="{{ route('register') }}">@lang('menu.sign_up')</a></li>
                 @else
@@ -100,6 +100,7 @@
                         </ul>
                     </li>
                 @endif
+                -->
                 <li>
                     <a style="padding-right: 0;" href="/es"><i class="flag-icon flag-icon-es"></i></a>
                 </li>
